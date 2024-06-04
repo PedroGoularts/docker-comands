@@ -13,10 +13,10 @@ Results:
 
 docker run -p 3306:3306 --name db_mysql -e MYSQL_ROOT_PASSWORD=docker_pwd -e MYSQL_DATABASE=docker_db -e MYSQL_USER=docker_usr -e MYSQL_PASSWORD=docker_pwd -d mysql
 
-![Desafio 02](https://uploaddeimagens.com.br/imagens/RzRRiGs)
+![Desafio 02](https://uploaddeimagens.com.br/images/004/791/895/original/mysql.png?1717464123)
 
 - Create database mongo + enviroment variables:
 
 docker run -p 8081:8081 --name db_mongo -e MONGO_INITDB_ROOT_USERNAME=mongo_usr -e MONGO_INITDB_ROOT_PASSWORD=mongo_pwd -d mongo
 
-![Desafio 03](https://uploaddeimagens.com.br/imagens/ZhYivqI)
+![Desafio 03](https://uploaddeimagens.com.br/images/004/791/897/original/mongodb.png?1717464919)
